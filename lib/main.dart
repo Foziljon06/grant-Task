@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
@@ -24,3 +23,4 @@ class MyApp extends StatelessWidget {
   }
 }
 
+// ResultPage(rightAnswers: 5, numberOfQuestion: 50, time:Duration(minutes:1), timeTaken: Duration(minutes:10),)
